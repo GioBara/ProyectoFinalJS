@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f2e8cf; }
+  body main {
+    min-height: 900px;
+    background-color: #f2e8cf; }
+    body main .contTitulo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      margin-top: 150px; }
+      body main .contTitulo .titulo {
+        text-align: center;
+        color: black;
+        font-size: 4rem;
+        font-family: "Edu TAS Beginner", cursive;
+        font-weight: bold; }
+    body main .searchBar {
+      display: flex;
+      margin: auto;
+      width: 300px;
+      justify-content: center;
+      margin-top: 100px;
+      border-style: solid;
+      border-color: black;
+      border-radius: 15px;
+      padding: 5px; }
+      body main .searchBar .search {
+        width: 300px;
+        border: none;
+        background-color: #f2e8cf; }
+    body main .botonesInicio {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px; }
+      body main .botonesInicio .btn {
+        padding: 10px;
+        width: 200px;
+        background-color: #a7c957; }
+        body main .botonesInicio .btn .linkInicio {
+          color: white;
+          text-decoration: none;
+          font-family: "Edu TAS Beginner", cursive;
+          font-size: 1.5rem; }
+      body main .botonesInicio .btn:hover {
+        background-color: #386641; }
+  body .navbar {
+    background-color: #386641; }
+    body .navbar .navbar-brand {
+      font-family: "Edu TAS Beginner", cursive;
+      font-size: 1.7rem;
+      color: #f2e8cf; }
+    body .navbar .nav-link {
+      font-family: "Edu TAS Beginner", cursive;
+      font-size: 1.2rem;
+      color: #f2e8cf; }
+    body .navbar .enPag {
+      color: #a7c957;
+      font-weight: bold; }
+    body .navbar .barraNav {
+      max-width: 500px; }
+  body footer {
+    background-color: #386641; }
+    body footer .footerI {
+      display: flex; }
