@@ -1,9 +1,9 @@
-.bodyL {
-    background-color: #f2e8cf;
+.bodyD {
+    background-color: $fondoD;
 
-    main {
+    .mainD {
         min-height: 900px;
-        background-color: #f2e8cf;
+        background-color: $fondoD;
 
         .contTitulo{
             display: flex;
@@ -13,7 +13,7 @@
             margin-top: 150px;
             .titulo {
                 text-align: center;
-                color: black;
+                color: $secundarioD;
                 font-size: 4rem;
                 font-family: "Edu TAS Beginner", cursive;
                 font-weight: bold;
@@ -36,7 +36,7 @@
             .search {
                 width: 300px;
                 border: none;
-                background-color:#f2e8cf;
+                background-color:$fondoD;
             }
         }
 
@@ -48,33 +48,34 @@
             .btn {
                 padding: 10px;
                 width: 200px;
-                background-color: #a7c957;
+                background-color: $terciarioD;
          
                 .linkInicio {
-                    color: white;
+                    color: $secundarioD;
                     text-decoration: none;
                     font-family:"Edu TAS Beginner", cursive;
                     font-size: 1.5rem;
                 }
             }
             .btn:hover{
-                background-color: #386641;
+                background-color: #000814;
+                color: $secundarioD;
             }
 
         }
 
     }
-    .barraNavL{
-        background-color: #386641;
+    .barraNavD{
+        background-color: $terciarioD;
         .navbar-brand{
             font-family: "Edu TAS Beginner", cursive;
             font-size: 1.7rem;
-            color: #f2e8cf;
+            color: $secundarioD;
         }
         .nav-link{
             font-family: "Edu TAS Beginner", cursive;
             font-size: 1.2rem;
-            color:#f2e8cf;
+            color: $secundarioD;
         }
         .enPag{
             color: #a7c957;
@@ -86,8 +87,8 @@
     }
 
 
-    .footerL{
-        background-color: $terciarioL;
+    .footerD{
+        background-color: $terciarioD;
         min-height: 80px;
         .footerI {
             display: flex;

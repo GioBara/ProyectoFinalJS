@@ -3,24 +3,24 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
+.bodyL {
   background-color: #f2e8cf; }
-  body main {
+  .bodyL main {
     min-height: 900px;
     background-color: #f2e8cf; }
-    body main .contTitulo {
+    .bodyL main .contTitulo {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100px;
       margin-top: 150px; }
-      body main .contTitulo .titulo {
+      .bodyL main .contTitulo .titulo {
         text-align: center;
         color: black;
         font-size: 4rem;
         font-family: "Edu TAS Beginner", cursive;
         font-weight: bold; }
-    body main .searchBar {
+    .bodyL main .searchBar {
       display: flex;
       margin: auto;
       width: 300px;
@@ -30,41 +30,120 @@ body {
       border-color: black;
       border-radius: 15px;
       padding: 5px; }
-      body main .searchBar .search {
+      .bodyL main .searchBar .search {
         width: 300px;
         border: none;
         background-color: #f2e8cf; }
-    body main .botonesInicio {
+    .bodyL main .botonesInicio {
       display: flex;
       justify-content: space-around;
       margin-top: 100px; }
-      body main .botonesInicio .btn {
+      .bodyL main .botonesInicio .btn {
         padding: 10px;
         width: 200px;
         background-color: #a7c957; }
-        body main .botonesInicio .btn .linkInicio {
+        .bodyL main .botonesInicio .btn .linkInicio {
           color: white;
           text-decoration: none;
           font-family: "Edu TAS Beginner", cursive;
           font-size: 1.5rem; }
-      body main .botonesInicio .btn:hover {
+      .bodyL main .botonesInicio .btn:hover {
         background-color: #386641; }
-  body .navbar {
+  .bodyL .barraNavL {
     background-color: #386641; }
-    body .navbar .navbar-brand {
+    .bodyL .barraNavL .navbar-brand {
       font-family: "Edu TAS Beginner", cursive;
       font-size: 1.7rem;
       color: #f2e8cf; }
-    body .navbar .nav-link {
+    .bodyL .barraNavL .nav-link {
       font-family: "Edu TAS Beginner", cursive;
       font-size: 1.2rem;
       color: #f2e8cf; }
-    body .navbar .enPag {
+    .bodyL .barraNavL .enPag {
       color: #a7c957;
       font-weight: bold; }
-    body .navbar .barraNav {
+    .bodyL .barraNavL .barraNav {
       max-width: 500px; }
-  body footer {
-    background-color: #386641; }
-    body footer .footerI {
+  .bodyL .footerL {
+    background-color: #386641;
+    min-height: 80px; }
+    .bodyL .footerL .footerI {
+      display: flex; }
+
+.cards {
+  display: flex; }
+  .cards .textoCard {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; }
+  .cards .cuadrado {
+    width: 1000px;
+    height: 1000px;
+    background-color: red; }
+
+.bodyD {
+  background-color: #003566; }
+  .bodyD .mainD {
+    min-height: 900px;
+    background-color: #003566; }
+    .bodyD .mainD .contTitulo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      margin-top: 150px; }
+      .bodyD .mainD .contTitulo .titulo {
+        text-align: center;
+        color: #ffc300;
+        font-size: 4rem;
+        font-family: "Edu TAS Beginner", cursive;
+        font-weight: bold; }
+    .bodyD .mainD .searchBar {
+      display: flex;
+      margin: auto;
+      width: 300px;
+      justify-content: center;
+      margin-top: 100px;
+      border-style: solid;
+      border-color: black;
+      border-radius: 15px;
+      padding: 5px; }
+      .bodyD .mainD .searchBar .search {
+        width: 300px;
+        border: none;
+        background-color: #003566; }
+    .bodyD .mainD .botonesInicio {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px; }
+      .bodyD .mainD .botonesInicio .btn {
+        padding: 10px;
+        width: 200px;
+        background-color: #001d3d; }
+        .bodyD .mainD .botonesInicio .btn .linkInicio {
+          color: #ffc300;
+          text-decoration: none;
+          font-family: "Edu TAS Beginner", cursive;
+          font-size: 1.5rem; }
+      .bodyD .mainD .botonesInicio .btn:hover {
+        background-color: #000814;
+        color: #ffc300; }
+  .bodyD .barraNavD {
+    background-color: #001d3d; }
+    .bodyD .barraNavD .navbar-brand {
+      font-family: "Edu TAS Beginner", cursive;
+      font-size: 1.7rem;
+      color: #ffc300; }
+    .bodyD .barraNavD .nav-link {
+      font-family: "Edu TAS Beginner", cursive;
+      font-size: 1.2rem;
+      color: #ffc300; }
+    .bodyD .barraNavD .enPag {
+      color: #a7c957;
+      font-weight: bold; }
+    .bodyD .barraNavD .barraNav {
+      max-width: 500px; }
+  .bodyD .footerD {
+    background-color: #001d3d;
+    min-height: 80px; }
+    .bodyD .footerD .footerI {
       display: flex; }

@@ -1,7 +1,17 @@
+$fondoL:#f2e8cf;
+$fondoD:#003566;
+$secundarioL:#a7c957;
+$secundarioD:#ffc300;
+$terciarioL:#386641;
+$terciarioD:#001d3d;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @import "index";
 @import "abtus";
+@import "tienda";
+@import "modoD";
