@@ -17,9 +17,9 @@
     <title>Tienda</title>
 </head>
 
-<body>
+<body class="bodyL" id="bodyT">
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">Titulo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,6 +33,7 @@
                         <a class="nav-link enPag" href="./tienda.html">Tienda Virtual</a>
                         <a class="nav-link" href="./carrito.html">Carrito</a>
                         <a class="nav-link" href="./contacto.html">Contactanos</a>
+                        <button class="btn nav-link" id="darkMode">Modo oscuro</button>
                     </div>
                 </div>
                 <div class="container-fluid barraNav">
@@ -44,16 +45,16 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div class="contTitulo">
+    <main class="mainL" id="mainT">
+        <div class="contTitulo" id="tituloT">
             <h1 class="titulo">Tienda Virtual</h1>
         </div>
-        <div id="cards">
+        <div class="cards" id="cards">
 
         </div>
 
     </main>
-    <footer>
+    <footer id="footer">
         <div class="footerI">
             <ul>
                 <li></li>
@@ -66,6 +67,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
     <script src="../js/tienda.js"></script>
+    <script src="/js/modoOscuro/dMode_Tienda.js"></script>
 </body>
 
 </html>

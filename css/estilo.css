@@ -71,14 +71,11 @@
       display: flex; }
 
 .cards {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
   .cards .textoCard {
     color: white;
     font-family: Arial, Helvetica, sans-serif; }
-  .cards .cuadrado {
-    width: 1000px;
-    height: 1000px;
-    background-color: red; }
 
 .bodyD {
   background-color: #003566; }
@@ -138,7 +135,7 @@
       font-size: 1.2rem;
       color: #ffc300; }
     .bodyD .barraNavD .enPag {
-      color: #a7c957;
+      color: #ffc300;
       font-weight: bold; }
     .bodyD .barraNavD .barraNav {
       max-width: 500px; }

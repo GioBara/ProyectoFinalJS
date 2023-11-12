@@ -1,4 +1,4 @@
 [
-    {"id":1, "precio":1000, "nombre":"Maceta"},
+    {"id":1, "precio":1000, "nombre":"Maceta", "imag":"a"},
     {"id":2, "precio":2000, "nombre":"Maceta grande"}
 ]

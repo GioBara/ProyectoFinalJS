@@ -7,10 +7,10 @@ fetch("../productos.json")
             const div = document.createElement("div");
             div.innerHTML = ` 
                             <h4 class="textoCard">${x.nombre}</h4>
+                            <img src="${x.imag}" alt="img de producto">
                             <p>${x.precio}</p>
-                            <div class="cuadrado">Cudrado</div>
+                            <button>Añadir al carrito</button>
                             `
             card.append(div);
         });
     });
-
