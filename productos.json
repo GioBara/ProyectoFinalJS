@@ -1,4 +1,11 @@
 [
     {"id":1, "precio":1000, "nombre":"Maceta", "imag":"a"},
-    {"id":2, "precio":2000, "nombre":"Maceta grande"}
+    {"id":2, "precio":2000, "nombre":"Maceta grande", "imag":"a"},
+    {"id":3, "precio":1000, "nombre":"Maceta", "imag":"a"},
+    {"id":4, "precio":2000, "nombre":"Maceta grande", "imag":"a"},
+    {"id":5, "precio":1000, "nombre":"Maceta", "imag":"a"},
+    {"id":6, "precio":2000, "nombre":"Maceta grande", "imag":"a"},
+    {"id":7, "precio":1000, "nombre":"Maceta", "imag":"a"},
+    {"id":8, "precio":2000, "nombre":"Maceta grande", "imag":"a"},
+    {"id":9, "precio":1000, "nombre":"Maceta", "imag":"a"}
 ]

@@ -72,10 +72,33 @@
 
 .cards {
   display: flex;
-  justify-content: space-around; }
-  .cards .textoCard {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .cards .cardsT {
+    margin: 20px;
+    background-color: #bc4749;
+    min-width: 300px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; }
+    .cards .cardsT .tituloCard {
+      color: #f2e8cf; }
+    .cards .cardsT .textoCard {
+      color: #f2e8cf;
+      font-weight: bold; }
+    .cards .cardsT .botonCard {
+      background-color: #a7c957;
+      font-size: 20px;
+      padding: 5px;
+      border-style: none;
+      border-radius: 6px;
+      margin-top: 15px; }
+
+.bloque {
+  height: 200px; }
 
 .bodyD {
   background-color: #003566; }

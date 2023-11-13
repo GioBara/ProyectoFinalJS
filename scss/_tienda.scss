@@ -1,8 +1,37 @@
-.cards{
-    display: flex;
-    justify-content: space-around;
-    .textoCard{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .cardsT{
+            margin: 20px;
+            background-color: #bc4749;
+            min-width: 300px;
+            min-height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            .tituloCard{
+                color: $fondoL;
+            }
+            .textoCard{
+                color: $fondoL;
+                font-weight: bold;
+            }
+            .botonCard{
+                background-color: $secundarioL;
+                font-size: 20px;
+                padding: 5px;
+                border-style: none;
+                border-radius: 6px;
+                margin-top: 15px;
+            }
+        }
+
     }
-}
+    .bloque{
+        height: 200px;
+    }
+
+
