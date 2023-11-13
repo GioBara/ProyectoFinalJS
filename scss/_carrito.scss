@@ -1,0 +1,32 @@
+.listaC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: $secundarioL;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    .liContenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.contenedorBotones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    .botonesC{
+        background-color: $terciarioL;
+        color: $fondoL;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+}
