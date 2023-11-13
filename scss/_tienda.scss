@@ -6,7 +6,7 @@
             margin: 20px;
             background-color: #bc4749;
             min-width: 300px;
-            min-height: 350px;
+            min-height: 550px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -14,6 +14,7 @@
             border-radius: 10px;
             .tituloCard{
                 color: $fondoL;
+                margin: 20px;
             }
             .textoCard{
                 color: $fondoL;
@@ -25,7 +26,12 @@
                 padding: 5px;
                 border-style: none;
                 border-radius: 6px;
-                margin-top: 15px;
+                margin: 15px;
+            }
+            .imgC{
+                max-width: 300px;
+                margin: 10px;
+                border-radius: 20px;
             }
         }
 

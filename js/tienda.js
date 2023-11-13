@@ -9,7 +9,7 @@ fetch("../productos.json")
             div.innerHTML = `
                             <div class="cardsT">
                                 <h4 class="tituloCard">${x.nombre}</h4>
-                                <img src="${x.imag}" alt="img de producto">
+                                <img class="imgC" src="${x.imag}" alt="img de producto">
                                 <p class="textoCard">${x.precio}</p>
                                 <button class="botonCard" id=${x.id}>Añadir al carrito</button>
                             </div>

@@ -78,14 +78,15 @@
     margin: 20px;
     background-color: #bc4749;
     min-width: 300px;
-    min-height: 350px;
+    min-height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px; }
     .cards .cardsT .tituloCard {
-      color: #f2e8cf; }
+      color: #f2e8cf;
+      margin: 20px; }
     .cards .cardsT .textoCard {
       color: #f2e8cf;
       font-weight: bold; }
@@ -95,7 +96,11 @@
       padding: 5px;
       border-style: none;
       border-radius: 6px;
-      margin-top: 15px; }
+      margin: 15px; }
+    .cards .cardsT .imgC {
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 20px; }
 
 .bloque {
   height: 200px; }
