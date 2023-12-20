@@ -107,6 +107,37 @@
         color: $secundarioD;
     }
 
+    .cardsT{
+        background-color: #364958;
+        .tituloCard{
+            color: $secundarioD;
+        }
+        .textoCard{
+            color: $secundarioD;
+        }
+        .botonCard{
+            color: $secundarioD;
+            background-color: $terciarioD;
+        }
+        .botonCard:hover{
+            background-color: $fondoD;
+            color: aliceblue;
+        }
+    }
+
+    .listaC{
+        background-color: $terciarioD;
+        color: $secundarioD ;
+    }
+
+    .botonesC{
+        background-color: $terciarioD;
+        color: $secundarioD;
+    }
+    .botonesC:hover{
+        background-color: #364958;
+        color: white;
+    }
 
     .footerD{
         background-color: $terciarioD;

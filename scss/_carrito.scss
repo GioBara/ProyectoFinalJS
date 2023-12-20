@@ -9,13 +9,18 @@
     margin: auto;
     border-radius: 20px;
     padding: 20px;
+    color: $fondoL;
     .liContenedor{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        .liP{
+            font-weight: bold;
+        }
     }
 }
+
 .contenedorBotones{
     display: flex;
     justify-content: space-evenly;

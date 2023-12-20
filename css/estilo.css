@@ -147,6 +147,75 @@
 .bloque {
   height: 200px; }
 
+.listaC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: #a7c957;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  color: #f2e8cf; }
+  .listaC .liContenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .listaC .liContenedor .liP {
+      font-weight: bold; }
+
+.contenedorBotones {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px; }
+  .contenedorBotones .botonesC {
+    background-color: #386641;
+    color: #f2e8cf;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 20px; }
+
+.contenedorFormulario {
+  margin: 50px auto;
+  width: 800px;
+  background-color: #386641;
+  border-radius: 20px; }
+  .contenedorFormulario .formulario {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .contenedorFormulario .formulario .itemF {
+      border-radius: 5px;
+      background-color: #f2e8cf;
+      color: #a7c957;
+      font-family: "Edu TAS Beginner", cursive;
+      height: 50px;
+      width: 400px;
+      font-size: 1.3rem;
+      margin: 10px; }
+    .contenedorFormulario .formulario .contBotonesF {
+      display: flex;
+      width: 500px;
+      justify-content: center;
+      align-items: center; }
+      .contenedorFormulario .formulario .contBotonesF .botonesF {
+        padding: 10px;
+        margin: 30px 50px;
+        min-width: 200px;
+        background-color: #f2e8cf;
+        border-radius: 20px;
+        color: #a7c957;
+        font-size: 1.4rem;
+        font-family: "Edu TAS Beginner", cursive;
+        font-weight: bold; }
+
 .bodyD {
   background-color: #003566; }
   .bodyD .mainD {
@@ -226,6 +295,27 @@
       max-width: 500px; }
   .bodyD .textoAbt {
     color: #ffc300; }
+  .bodyD .cardsT {
+    background-color: #364958; }
+    .bodyD .cardsT .tituloCard {
+      color: #ffc300; }
+    .bodyD .cardsT .textoCard {
+      color: #ffc300; }
+    .bodyD .cardsT .botonCard {
+      color: #ffc300;
+      background-color: #001d3d; }
+    .bodyD .cardsT .botonCard:hover {
+      background-color: #003566;
+      color: aliceblue; }
+  .bodyD .listaC {
+    background-color: #001d3d;
+    color: #ffc300; }
+  .bodyD .botonesC {
+    background-color: #001d3d;
+    color: #ffc300; }
+  .bodyD .botonesC:hover {
+    background-color: #364958;
+    color: white; }
   .bodyD .footerD {
     background-color: #001d3d;
     min-height: 80px; }
@@ -234,33 +324,3 @@
       .bodyD .footerD .footerI .footerItem {
         color: #ffc300;
         padding: 10px; }
-
-.listaC {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  background-color: #a7c957;
-  max-width: 1000px;
-  margin: auto;
-  border-radius: 20px;
-  padding: 20px; }
-  .listaC .liContenedor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-
-.contenedorBotones {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 20px; }
-  .contenedorBotones .botonesC {
-    background-color: #386641;
-    color: #f2e8cf;
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    margin-bottom: 20px; }
