@@ -9,17 +9,34 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100px;
+            height: 300px;
             margin-top: 150px;
+            background-image: url(../img/fondoVivero.jpg);
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
             .titulo {
                 text-align: center;
                 color: $secundarioD;
                 font-size: 4rem;
                 font-family: "Edu TAS Beginner", cursive;
                 font-weight: bold;
+                background-color: $terciarioD;
+                padding: 20px;
+                border-radius: 15px;
             }
         }
 
+        .divParrafo{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            .parrafoInicio{
+                color: $secundarioD;
+                font-size: 1.8rem;
+                font-family: "Edu TAS Beginner", cursive;
+            }
+        }
 
         .searchBar {
             display: flex;
@@ -86,12 +103,20 @@
         }
     }
 
+    .textoAbt{
+        color: $secundarioD;
+    }
+
 
     .footerD{
         background-color: $terciarioD;
         min-height: 80px;
         .footerI {
             display: flex;
+            .footerItem{
+                color: $secundarioD;
+                padding: 10px;
+            }
         }
     }
 }

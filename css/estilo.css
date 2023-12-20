@@ -12,14 +12,29 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100px;
-      margin-top: 150px; }
+      height: 300px;
+      margin-top: 150px;
+      background-image: url(../img/fondoVivero.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
       .bodyL main .contTitulo .titulo {
         text-align: center;
-        color: black;
+        color: #f2e8cf;
         font-size: 4rem;
         font-family: "Edu TAS Beginner", cursive;
-        font-weight: bold; }
+        font-weight: bold;
+        background-color: #386641;
+        padding: 20px;
+        border-radius: 15px; }
+    .bodyL main .divParrafo {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px; }
+      .bodyL main .divParrafo .parrafoInicio {
+        color: #386641;
+        font-size: 1.8rem;
+        font-family: "Edu TAS Beginner", cursive; }
     .bodyL main .searchBar {
       display: flex;
       margin: auto;
@@ -59,6 +74,10 @@
       font-family: "Edu TAS Beginner", cursive;
       font-size: 1.2rem;
       color: #f2e8cf; }
+      .bodyL .barraNavL .nav-link #imgDm {
+        width: 35px;
+        margin-left: 15px;
+        background-image: url(/img/sol.png); }
     .bodyL .barraNavL .enPag {
       color: #a7c957;
       font-weight: bold; }
@@ -69,6 +88,29 @@
     min-height: 80px; }
     .bodyL .footerL .footerI {
       display: flex; }
+      .bodyL .footerL .footerI .footerItem {
+        color: #f2e8cf;
+        padding: 10px; }
+
+.divAbt {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .divAbt .imgAbt {
+    width: 700px;
+    margin: 20px;
+    border: solid;
+    border-color: #a7c957;
+    border-radius: 10px;
+    border-width: 6px; }
+  .divAbt .textoAbt {
+    margin: 25px;
+    color: #386641;
+    font-size: 1.7rem;
+    font-family: "Edu TAS Beginner", cursive;
+    text-align: center; }
 
 .cards {
   display: flex;
@@ -114,14 +156,29 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100px;
-      margin-top: 150px; }
+      height: 300px;
+      margin-top: 150px;
+      background-image: url(../img/fondoVivero.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
       .bodyD .mainD .contTitulo .titulo {
         text-align: center;
         color: #ffc300;
         font-size: 4rem;
         font-family: "Edu TAS Beginner", cursive;
-        font-weight: bold; }
+        font-weight: bold;
+        background-color: #001d3d;
+        padding: 20px;
+        border-radius: 15px; }
+    .bodyD .mainD .divParrafo {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px; }
+      .bodyD .mainD .divParrafo .parrafoInicio {
+        color: #ffc300;
+        font-size: 1.8rem;
+        font-family: "Edu TAS Beginner", cursive; }
     .bodyD .mainD .searchBar {
       display: flex;
       margin: auto;
@@ -167,11 +224,16 @@
       font-weight: bold; }
     .bodyD .barraNavD .barraNav {
       max-width: 500px; }
+  .bodyD .textoAbt {
+    color: #ffc300; }
   .bodyD .footerD {
     background-color: #001d3d;
     min-height: 80px; }
     .bodyD .footerD .footerI {
       display: flex; }
+      .bodyD .footerD .footerI .footerItem {
+        color: #ffc300;
+        padding: 10px; }
 
 .listaC {
   display: flex;

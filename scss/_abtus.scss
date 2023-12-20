@@ -1,0 +1,22 @@
+.divAbt{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .imgAbt{
+        width: 700px;
+        margin: 20px;
+        border: solid;
+        border-color: $secundarioL;
+        border-radius: 10px;
+        border-width: 6px;
+    }
+    .textoAbt{
+        margin: 25px;
+        color: $terciarioL;
+        font-size: 1.7rem;
+        font-family: "Edu TAS Beginner", cursive;
+        text-align: center;
+    }
+}

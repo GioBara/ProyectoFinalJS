@@ -9,14 +9,32 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100px;
+            height: 300px;
             margin-top: 150px;
+            background-image: url(../img/fondoVivero.jpg);
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
             .titulo {
                 text-align: center;
-                color: black;
+                color: #f2e8cf;
                 font-size: 4rem;
                 font-family: "Edu TAS Beginner", cursive;
                 font-weight: bold;
+                background-color: #386641;
+                padding: 20px;
+                border-radius: 15px;
+            }
+        }
+
+        .divParrafo{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            .parrafoInicio{
+                color: #386641;
+                font-size: 1.8rem;
+                font-family: "Edu TAS Beginner", cursive;
             }
         }
 
@@ -75,6 +93,11 @@
             font-family: "Edu TAS Beginner", cursive;
             font-size: 1.2rem;
             color:#f2e8cf;
+            #imgDm{
+                width: 35px;
+                margin-left: 15px;
+                background-image: url(/img/sol.png);
+            }
         }
         .enPag{
             color: $secundarioL;
@@ -91,6 +114,10 @@
         min-height: 80px;
         .footerI {
             display: flex;
+            .footerItem{
+                color: $fondoL;
+                padding: 10px;
+            }
         }
     }
 }

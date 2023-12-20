@@ -1,11 +1,56 @@
 [
-    {"id":1, "precio":1000, "nombre":"Sanserviera Verde", "imag":"/img/Sanserviera Verde.png"},
-    {"id":2, "precio":2000, "nombre":"Incienso", "imag":"/img/Incienso.png"},
-    {"id":3, "precio":3000, "nombre":"Monstera", "imag":"/img/Monstera.png"},
-    {"id":4, "precio":4000, "nombre":"Plectrantus", "imag":"/img/Plectrantus.png"},
-    {"id":5, "precio":5000, "nombre":"Philodendro Peruviano", "imag":"/img/Philodendro Peruviano.png"},
-    {"id":6, "precio":6000, "nombre":"Begonia Elatior", "imag":"/img/Begonia Elatior.png"},
-    {"id":7, "precio":7000, "nombre":"Aphelandra", "imag":"/img/Aphelandra.png"},
-    {"id":8, "precio":8000, "nombre":"Begonia Dragon", "imag":"/img/Begonia Dragon.png"},
-    {"id":9, "precio":9000, "nombre":"Aralia Ivonet", "imag":"/img/Aralia Ivonet.png"}
+    {
+     "id":1,
+     "precio":1000, 
+     "nombre":"Sanserviera Verde",
+     "imag":"/img/Sanserviera Verde.png"
+    },
+    {
+     "id":2, 
+     "precio":2000, 
+     "nombre":"Incienso", 
+     "imag":"/img/Incienso.png"
+    },
+    {
+     "id":3, 
+     "precio":3000, 
+     "nombre":"Monstera",
+     "imag":"/img/Monstera.png"
+    },
+    {
+     "id":4, 
+     "precio":4000, 
+     "nombre":"Plectrantus",
+     "imag":"/img/Plectrantus.png"
+    },
+    {
+     "id":5, 
+     "precio":5000,
+     "nombre":"Philodendro Peruviano",
+     "imag":"/img/Philodendro Peruviano.png"
+    },
+    {
+     "id":6, 
+     "precio":6000, 
+     "nombre":"Begonia Elatior", 
+     "imag":"/img/Begonia Elatior.png"
+    },
+    {
+     "id":7, 
+     "precio":7000, 
+     "nombre":"Aphelandra", 
+     "imag":"/img/Aphelandra.png"
+    },
+    {
+     "id":8, 
+     "precio":8000, 
+     "nombre":"Begonia Dragon",
+     "imag":"/img/Begonia Dragon.png"
+    },
+    {
+     "id":9, 
+     "precio":9000, 
+     "nombre":"Aralia Ivonet", 
+     "imag":"/img/Aralia Ivonet.png"
+    }
 ]
