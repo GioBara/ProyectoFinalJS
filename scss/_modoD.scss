@@ -139,6 +139,24 @@
         color: white;
     }
 
+    .contenedorFormulario{
+        background-color: $terciarioD;
+        .itemF{
+            background-color: $fondoD;
+            color: $secundarioD;
+        }
+        .contBotonesF{
+            .botonesF{
+                background-color: $terciarioD;
+                color: $secundarioD;
+            }
+            .botonesF:hover{
+                background-color: $fondoD;
+                color: aliceblue;
+            }
+        }
+    }
+
     .footerD{
         background-color: $terciarioD;
         min-height: 80px;

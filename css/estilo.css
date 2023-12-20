@@ -316,6 +316,17 @@
   .bodyD .botonesC:hover {
     background-color: #364958;
     color: white; }
+  .bodyD .contenedorFormulario {
+    background-color: #001d3d; }
+    .bodyD .contenedorFormulario .itemF {
+      background-color: #003566;
+      color: #ffc300; }
+    .bodyD .contenedorFormulario .contBotonesF .botonesF {
+      background-color: #001d3d;
+      color: #ffc300; }
+    .bodyD .contenedorFormulario .contBotonesF .botonesF:hover {
+      background-color: #003566;
+      color: aliceblue; }
   .bodyD .footerD {
     background-color: #001d3d;
     min-height: 80px; }
