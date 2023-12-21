@@ -1,14 +1,16 @@
 const lista = document.getElementById("lista")
 let carrito = [];
 let cuenta = 0;
-
+let total = 0;
 if(localStorage.getItem("carrito")!=[]){
     carrito = JSON.parse(localStorage.getItem("carrito"));
 }
 
-const precios = carrito.map((el)=>(el.precio));
-const total = precios.forEach((el)=>cuenta = cuenta+el);
-console.log(cuenta)
+if(carrito != []){
+    const precios = carrito.map((el)=>(el.precio));
+    total = precios.forEach((el)=>cuenta = cuenta+el);
+    console.log(cuenta)
+}
 
 for(producto of carrito){
     const li = document.createElement("li");
